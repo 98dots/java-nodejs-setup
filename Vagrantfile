@@ -12,7 +12,6 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provider "hyperv" do |h|
-    h.vmname = PROJECT_NAME
     h.enable_enhanced_session_mode = true
   end
 end
